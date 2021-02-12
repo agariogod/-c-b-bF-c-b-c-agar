@@ -1,0 +1,3 @@
+cd agar.io-clone
+npm install
+npm start

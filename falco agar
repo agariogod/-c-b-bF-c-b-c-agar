@@ -1,3 +1,42 @@
-cd agar.io-clone
-npm install
-npm start
+C:\Users\sdkca\Desktop\Dev Workbench\nodejslagar.io-clone>npm start
+> agar-clone@1.0.0 start C:\Users\sdkca\Desktop\Dev Workbench\nodejslagar.io-clone
+> gulp run
+[11:10:54] Using gulpfile ~\Desktop\Dev Workbench\nodejslagar.io-clone gulpfile.js
+[11:10:54] Starting 'lint'...
+[11:10:54] Starting 'move-client'
+[11:10:55] Finished "lint' after 1.16 s
+[11:10:55] Starting 'build-server'
+[11:10:55] Starting 'test'...
+[11:10:55] Finished 'test' after 1.2 ms
+[11:10:55] Finished 'move-client' after 1.14 s
+[11:10:55] Starting 'build-client'...
+util.js
+#massToRadius
+✓ should return non-zero radius on zero input
+✓ should convert masses to a circle radius
+#validNick
+✓ should allow empty player nicknames
+✓ should allow ascii character nicknames
+V should disallow unicode-dependent alphabets
+[11:10:58] Finished 'build-server' after 3.45 s
+✓ should disallow spaces in nicknames
+#log
+V should compute the log_{base} of a number
+#getDistance
+✓ should return a positive number
+8 passing (335ms)
+[11:11:02] Version: webpack 1.15.0
+Asset Size Chunks
+Chunk Names
+app.js 259 kB
+[emitted] main
+[11:11:02] Finished 'build-client' after 6.66 s
+[11:11:02] Starting 'build'...
+[11:11:02] Finished 'build' after 18 us
+[11:11:02] Starting 'run'...
+[11:11:02] Finished 'run' after 475 ms
+[11:11:02] [nodemon] 1.19.1
+(11:11:02] [nodemon] to restart at any time, enter 'rs
+[11:11:02] [nodemon) watching: *.*
+(11:11:02] [nodemon] starting `node ./server/server.js config.json
+[DEBUG] Listening on 0.0.0.0:3000
